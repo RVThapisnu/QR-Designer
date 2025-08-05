@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QRcode Designer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="zap.svg">
+    </head>
+    <body>
+        <header>
+            <h3>QRCode Designer & Generator</h3>
+        </header>
+        <main>
+            <frm>
+                <table>
+                    <tr><td>URL</td><td><input type="text" id="i1"></td></tr>
+                    <tr><td>Title&nbsp</td><td><input type="text" id="i2"></td></tr>
+                    <tr><td>FG</td><td><input type="color" id="c1"></td></tr>
+                    <tr><td>BG</td><td><input type="color" id="c2"></td></tr>
+                    <tr><td>Name</td><td><input type="text" id="i3"></td></tr>
+                    <tr><td colspan=2 align="center"><button id="b1" onclick="downlod()">Create QR</td></tr>
+                </table>
+            </frm>
+            <preview>
+                <img src="" id="img"></img>
+                <a href="" id="b2" download><button>Download QR</button></a><br>
+            </preview>
+        </main>
+        <footer>
+            <h3>Made By R.V.Thapisnu</h3>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
